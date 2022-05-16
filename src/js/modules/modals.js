@@ -17,7 +17,7 @@ const modals = () => {
                 if (destroy) {
                     item.remove()
                 }
-                windows.forEach(item => {
+                windows.forEach(item => { 
                     item.style.display = 'none'
                     item.classList.add('animated', 'fadeIn')
                 })
