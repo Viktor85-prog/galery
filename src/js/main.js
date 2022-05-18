@@ -7,6 +7,7 @@ import showMoreStyles from './modules/showMoreStyles';
 import calc from './modules/calc';
 import filter from './modules/filter';
 import picruteSize from './modules/pictureSize'
+import accordion from './modules/accordion'
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -22,4 +23,5 @@ window.addEventListener('DOMContentLoaded', () => {
     calc('#size', '#material', '#options', '.promocode', '.calc-price')
     filter()
     picruteSize('.sizes-block')
+    accordion('.accordion-heading', '.accordion-block');
 });
