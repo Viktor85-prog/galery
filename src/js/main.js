@@ -23,5 +23,5 @@ window.addEventListener('DOMContentLoaded', () => {
     calc('#size', '#material', '#options', '.promocode', '.calc-price')
     filter()
     picruteSize('.sizes-block')
-    accordion('.accordion-heading', '.accordion-block');
+    accordion('.accordion-heading');
 });
