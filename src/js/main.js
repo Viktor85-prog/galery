@@ -9,7 +9,8 @@ import filter from './modules/filter';
 import picruteSize from './modules/pictureSize';
 import accordion from './modules/accordion';
 import burger from './modules/burger';
-import scrolling from './modules/scrolling'
+import scrolling from './modules/scrolling';
+import drop from './modules/drop';
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -26,6 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
     filter();
     picruteSize('.sizes-block');
     accordion('.accordion-heading');
-    burger('.burger-menu', '.burger')
-    scrolling('.pageup')
+    burger('.burger-menu', '.burger');
+    scrolling('.pageup');
+    drop();
 });
